@@ -42,6 +42,7 @@ $('document').ready(function(){
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
 			$('#bannar_coming').fadeIn('slow');
 		});
+		audio.stop();
 	});
 
 	$('#bannar_coming').click(function(){
